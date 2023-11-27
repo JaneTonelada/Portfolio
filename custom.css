@@ -1,0 +1,85 @@
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+body {
+    background-color: #FAFCFC;
+}
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+footer {
+    background-color: #3a3a3a;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #dfdfdf;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+    .navbar{
+        min-height: 30vh;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-light, .navbar-toggler{
+    color: black;
+    background-color: #FAFCFC;
+}
+main {
+    flex: 1 0 auto;
+}
+.web{
+    color: white;
+    opacity: .5;
+    font-size: 7vw;
+    letter-spacing: 10px;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+.hello{
+    color: black;
+}
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
